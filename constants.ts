@@ -94,7 +94,7 @@ export const ARTWORKS: Artwork[] = [
   },
   {
     id: '9',
-    title: 'CONCERTO ALLA REGGIA',
+    title: 'OCCHI ATTENTI E AUTOREVOLI ASSISTONO...',
     date: 'Maggio 2023',
     category: 'Tecnica Mista',
     dimensions: '40 x 80 x 2,5 cm',
