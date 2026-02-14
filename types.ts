@@ -39,7 +39,7 @@ export enum AppSection {
   CONTACT = 'contact'
 }
 
-export type ViewMode = 'home' | 'gallery';
+export type ViewMode = 'home' | 'gallery' | 'artwork';
 
 export interface EditedImageResult {
   imageUrl: string;

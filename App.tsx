@@ -5,12 +5,13 @@ import Gallery from './components/Gallery';
 import FullGallery from './components/FullGallery';
 import About from './components/About';
 import Contact from './components/Contact';
-import ArtworkModal from './components/ArtworkModal';
+import ArtworkDetail from './components/ArtworkDetail';
 import { AppSection, Artwork, ViewMode } from './types';
 import { ARTWORKS } from './constants';
 
 const App: React.FC = () => {
   const [view, setView] = useState<ViewMode>('home');
+  const [previousView, setPreviousView] = useState<'home' | 'gallery'>('home');
   const [currentSection, setCurrentSection] = useState<AppSection>(AppSection.HOME);
   const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null);
 
@@ -20,7 +21,7 @@ const App: React.FC = () => {
 
     const options = {
       root: null,
-      rootMargin: '-30% 0px -40% 0px', // Active when element is in the middle-ish
+      rootMargin: '-30% 0px -40% 0px',
       threshold: 0
     };
 
@@ -65,7 +66,7 @@ const App: React.FC = () => {
 
   const handleNavigate = (section: AppSection) => {
     if (section === AppSection.GALLERY && view === 'home') {
-      setCurrentSection(section); // Immediate feedback
+      setCurrentSection(section);
       scrollToSection(section);
       return;
     }
@@ -75,10 +76,8 @@ const App: React.FC = () => {
       return;
     }
 
-    // Default behavior: go to home view and scroll
     if (view !== 'home') {
       setView('home');
-      // Wait for React to render the Home view before scrolling
       setTimeout(() => {
         setCurrentSection(section);
         scrollToSection(section);
@@ -94,21 +93,34 @@ const App: React.FC = () => {
   };
 
   const handleSelectArtwork = (artwork: Artwork) => {
+    setPreviousView(view === 'artwork' ? previousView : (view as 'home' | 'gallery'));
     setSelectedArtwork(artwork);
+    setView('artwork');
   };
 
-  const handleCloseModal = () => {
+  const handleBack = () => {
     setSelectedArtwork(null);
+    setView(previousView);
   };
 
-  const handleContactFromModal = () => {
-    setSelectedArtwork(null);
-    setView('home');
-    setTimeout(() => {
-      setCurrentSection(AppSection.CONTACT);
-      scrollToSection(AppSection.CONTACT);
-    }, 50);
+  const handleNavigateArtwork = (artwork: Artwork) => {
+    setSelectedArtwork(artwork);
+    // view stays 'artwork'
   };
+
+  // Artwork view — full page, no nav/footer
+  if (view === 'artwork' && selectedArtwork) {
+    return (
+      <div className="min-h-screen bg-white text-black selection:bg-red-600 selection:text-white overflow-x-hidden">
+        <ArtworkDetail
+          artwork={selectedArtwork}
+          artworks={ARTWORKS}
+          onBack={handleBack}
+          onNavigate={handleNavigateArtwork}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-white text-black selection:bg-red-600 selection:text-white overflow-x-hidden">
@@ -121,7 +133,6 @@ const App: React.FC = () => {
       <main>
         {view === 'home' ? (
           <>
-            {/* Sections are stacked but we scroll to them. ID is crucial. */}
             <div id={AppSection.HOME}>
               <Hero onNavigate={handleNavigate} />
             </div>
@@ -156,15 +167,6 @@ const App: React.FC = () => {
       <footer className="py-8 text-center text-xs text-neutral-400 border-t border-neutral-100">
         <p>&copy; {new Date().getFullYear()} Marco Virno. All rights reserved.</p>
       </footer>
-
-      {/* Modal Overlay */}
-      {selectedArtwork && (
-        <ArtworkModal
-          artwork={selectedArtwork}
-          onClose={handleCloseModal}
-          onContact={handleContactFromModal}
-        />
-      )}
     </div>
   );
 };
