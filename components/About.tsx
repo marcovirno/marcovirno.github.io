@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <section className="py-24 bg-neutral-50">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16">
         {/* Photo Section */}
-        <div className="relative h-full">
+        <div className="relative h-full min-h-[320px]">
           <div className="h-full bg-neutral-200 overflow-hidden">
             <img
               src={ARTIST_PROFILE_PHOTO}

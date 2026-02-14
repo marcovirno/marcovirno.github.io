@@ -32,7 +32,7 @@ const Gallery: React.FC<GalleryProps> = ({ artworks, onSelectArtwork, onViewFull
                 className="w-full h-full object-cover transition-all duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-105"
               />
 
-              {/* Elegant Gradient Overlay */}
+              {/* Elegant Gradient Overlay (desktop hover) */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
                 <div className="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 delay-75 ease-out">
                   <div className="flex items-baseline justify-between">
@@ -45,6 +45,12 @@ const Gallery: React.FC<GalleryProps> = ({ artworks, onSelectArtwork, onViewFull
                   </p>
                 </div>
               </div>
+            </div>
+
+            {/* Mobile: always-visible info below the image */}
+            <div className="md:hidden mt-3 flex items-baseline justify-between px-1">
+              <h3 className="text-base font-bold font-mono">{art.title}</h3>
+              <span className="text-xs font-mono text-neutral-400 ml-2 shrink-0">{art.date}</span>
             </div>
           </div>
         ))}

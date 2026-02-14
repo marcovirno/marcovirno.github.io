@@ -64,7 +64,7 @@ const FullGallery: React.FC<FullGalleryProps> = ({ artworks, onSelectArtwork }) 
       </div>
 
       {/* Filters */}
-      <div className="flex flex-col md:flex-row justify-between items-center mb-12 border-y border-neutral-100 py-6 gap-6 sticky top-20 bg-white z-40">
+      <div className="flex flex-col md:flex-row justify-between items-center mb-12 border-y border-neutral-100 py-3 md:py-6 gap-3 md:gap-6 sticky top-20 bg-white z-40">
         <div className="flex gap-2 overflow-x-auto no-scrollbar max-w-full pb-2 md:pb-0">
           <span className="text-xs font-bold uppercase tracking-widest mr-4 self-center hidden md:block">Tecnica:</span>
           {categories.map(cat => (

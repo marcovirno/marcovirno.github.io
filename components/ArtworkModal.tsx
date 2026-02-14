@@ -27,7 +27,7 @@ const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose, onContact
           </svg>
         </button>
         {/* Image Section */}
-        <div className="w-full md:w-3/5 bg-neutral-100 flex items-center justify-center p-8 relative overflow-hidden">
+        <div className="w-full md:w-3/5 h-[40vh] md:h-auto bg-neutral-100 flex items-center justify-center p-8 relative overflow-hidden">
           <img
             src={artwork.imageUrl}
             alt={artwork.title}
@@ -38,13 +38,13 @@ const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose, onContact
         {/* Info/Controls Section */}
         <div className="w-full md:w-2/5 flex flex-col">
           <div className="flex border-b border-neutral-100">
-            <div className={`flex-1 py-4 pl-8 text-xs font-bold tracking-widest uppercase bg-white text-black`}>Dettagli</div>
+            <div className={`flex-1 py-3 pl-4 md:pl-8 text-xs font-bold tracking-widest uppercase bg-white text-black`}>Dettagli</div>
           </div>
 
-          <div className="flex-1 p-8 overflow-y-auto no-scrollbar">
-            <div className="space-y-8 animate-fade-in-up">
+          <div className="flex-1 p-4 md:p-8 overflow-y-auto no-scrollbar">
+            <div className="space-y-6 md:space-y-8 animate-fade-in-up">
               <div>
-                <h2 className="text-4xl font-bold font-mono text-black mb-2">{artwork.title}</h2>
+                <h2 className="text-2xl md:text-4xl font-bold font-mono text-black mb-2 leading-tight">{artwork.title}</h2>
                 <p className="text-neutral-500 font-mono">{artwork.date}</p>
               </div>
 
@@ -69,9 +69,11 @@ const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose, onContact
                 )}
               </div>
 
-              <p className="leading-relaxed text-neutral-600 text-justify">
-                {artwork.description}
-              </p>
+              <div className="max-h-[300px] overflow-y-auto pr-2 custom-scrollbar">
+                <p className="leading-relaxed text-neutral-600 text-justify">
+                  {artwork.description}
+                </p>
+              </div>
 
               <button
                 onClick={() => {
@@ -81,7 +83,7 @@ const ArtworkModal: React.FC<ArtworkModalProps> = ({ artwork, onClose, onContact
                   );
                   window.location.href = `mailto:virno.marco@gmail.com?subject=${subject}&body=${body}`;
                 }}
-                className="w-full py-4 border border-black hover:bg-black hover:text-white transition-all uppercase text-xs tracking-widest font-bold mt-8"
+                className="w-full py-4 border border-black hover:bg-black hover:text-white transition-all uppercase text-xs tracking-widest font-bold mt-4 md:mt-8"
               >
                 Richiedi Informazioni
               </button>
