@@ -1,0 +1,9 @@
+{
+    "prompt": "A professional, high-end gallery studio photograph of the image in input. The artwork rests centered on a minimalist, plain neutral grey exhibition plinth. The background is a seamless, smooth neutral grey cyclorama wall, offering no distractions. Soft, diffused studio lighting illuminates the object evenly, creating gentle, grounded shadows directly beneath the base on the pedestal. The camera angle is eye-level, perfectly aligned centrally with the object. The composition is clean, objective, and high-resolution, resembling an auction house catalog entry.",
+    "negative_prompt": "text, watermark, signature, human presence, hands, blurry, grainy, low quality, distorted perspective, harsh shadows, bright highlights, cluttered background, colored background, uneven lighting, vertical orientation",
+    "width": 1920,
+    "height": 1080,
+    "samples": 1,
+    "num_inference_steps": 30,
+    "guidance_scale": 7.5
+}
