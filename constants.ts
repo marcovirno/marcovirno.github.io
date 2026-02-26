@@ -105,7 +105,7 @@ export const ARTWORKS: Artwork[] = [
   },
   {
     id: '10',
-    title: 'ETERNE ARMONIE GEOMETRIE DEL PAESAGGIO',
+    title: 'ETERNE ARMONIE GEOMETRICHE DEL PAESAGGIO',
     date: 'Gennaio 2023',
     category: 'Acrilici su legno naturale',
     dimensions: '100 x 40 x 4,5 cm',
