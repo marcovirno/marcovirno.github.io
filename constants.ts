@@ -6,6 +6,17 @@ export const ARTIST_SURNAME = "VIRNO";
 export const ARTWORKS: Artwork[] = [
   {
     id: '1',
+    title: 'LE VERGINI DEL \'73 A NAPOLI',
+    date: 'Marzo 2026',
+    category: 'Acrilici su legno naturale',
+    dimensions: '40 x 80 x 2 cm',
+    technique: 'Colori acrilici su legno naturale sagomato a mano.',
+    description: 'Nella vastità silenziosa di Piazza del Plebiscito, Napoli si guarda allo specchio e non si riconosce subito. È la stessa città di sempre, eppure indossa una pelle nuova, fatta di colori netti, geometrie decise, ferite ricucite con il filo della memoria. Al centro, una scultura astratta si erge come un cuore meccanico: pulsa senza sangue, ma tiene in vita tutto ciò che le gira intorno. È il presente che batte, instabile e necessario, sospeso tra slancio e misura. Ai lati, immobili e vigili, due vergini antiche osservano il tempo scorrere. Non giudicano, non puniscono: custodiscono. Sono il confine sottile tra desiderio e perdita, tra l’istinto che divora e la volontà che salva. La loro castità non è rinuncia, ma scelta; la loro fermezza non è freddezza, ma equilibrio. Stanno lì per ricordare che ogni piacere, ogni bene, ogni sogno, se non governato, può diventare rovina. Questa è Napoli che rinasce senza dimenticare. Una città che ha conosciuto anni amari, che ha imparato a convivere con l’ingiustizia e la bellezza nello stesso respiro. Tra palazzi e chiese, tra il mare che promette e la pietra che trattiene, Napoli continua ad amare e a chiedere di più. E mentre una voce canta il desiderio di andare oltre, di non fermarsi a ciò che appare, la piazza diventa racconto: una storia di passione e di resistenza, di antica saggezza e fame moderna. Una città che non si arrende, che lotta, che pretende senso. Perché Napoli, ieri come oggi, non chiede il permesso di esistere: vuole di più.',
+    imageUrl: '/images/artwork-135.jpg',
+    operaNumber: '135'
+  },
+  {
+    id: '2',
     title: 'OSTENTAZIONE AL GIN',
     date: 'Dicembre 2025',
     category: 'Composizione',
@@ -16,7 +27,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '134'
   },
   {
-    id: '2',
+    id: '3',
     title: 'L\'ECO DEL SILENZIO',
     date: 'Novembre 2025',
     category: 'Acrilici su legno naturale',
@@ -27,7 +38,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '131'
   },
   {
-    id: '3',
+    id: '4',
     title: 'RESIDENZA 127',
     date: 'Giugno 2025',
     category: 'Acrilici su legno naturale',
@@ -38,7 +49,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '127'
   },
   {
-    id: '4',
+    id: '5',
     title: 'ATRANI, ETERNO RIFUGIO',
     date: 'Aprile 2025',
     category: 'Acrilici su legno naturale',
@@ -49,7 +60,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '126'
   },
   {
-    id: '5',
+    id: '6',
     title: 'NAPOLI : CUORE, FEDE E PASSIONE',
     date: 'Marzo 2025',
     category: 'Acrilici su legno naturale',
@@ -60,7 +71,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '124'
   },
   {
-    id: '6',
+    id: '7',
     title: 'QUATTRO PASSI NELLA STORIA',
     date: 'Dicembre 2024',
     category: 'Acrilici su legno naturale',
@@ -71,7 +82,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '122'
   },
   {
-    id: '7',
+    id: '8',
     title: 'VELE AL TRAMONTO',
     date: 'Giugno 2024',
     category: 'Acrilici su legno naturale',
@@ -82,7 +93,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '120'
   },
   {
-    id: '8',
+    id: '9',
     title: 'LE CHIAVI DELLA VITA',
     date: 'Febbraio 2024',
     category: 'Acrilici su legno naturale',
@@ -93,7 +104,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '116'
   },
   {
-    id: '9',
+    id: '10',
     title: 'OCCHI ATTENTI E AUTOREVOLI ASSISTONO...',
     date: 'Maggio 2023',
     category: 'Tecnica Mista',
@@ -104,7 +115,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '111'
   },
   {
-    id: '10',
+    id: '11',
     title: 'ETERNE ARMONIE GEOMETRICHE DEL PAESAGGIO',
     date: 'Gennaio 2023',
     category: 'Acrilici su legno naturale',
@@ -115,7 +126,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '106'
   },
   {
-    id: '11',
+    id: '12',
     title: 'SAN GENNA\' PIENZACE TU !',
     date: 'Dicembre 2022',
     category: 'Acrilici su legno naturale',
@@ -126,7 +137,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '103'
   },
   {
-    id: '12',
+    id: '13',
     title: 'LE TESI E LE ILLUSIONI DI LISA',
     date: 'Novembre 2022',
     category: 'Acrilici su legno naturale',
@@ -137,7 +148,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '102'
   },
   {
-    id: '13',
+    id: '14',
     title: 'UNA SERA IN QUELLA STAGIONE',
     date: 'Giugno 2022',
     category: 'Acrilici su legno naturale',
