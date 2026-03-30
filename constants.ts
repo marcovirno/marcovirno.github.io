@@ -7,7 +7,7 @@ export const ARTWORKS: Artwork[] = [
   {
     id: '1',
     title: 'LE VERGINI DEL \'73 A NAPOLI',
-    date: 'Marzo 2026',
+    date: 'Gennaio 2026',
     category: 'Acrilici su legno naturale',
     dimensions: '40 x 80 x 2 cm',
     technique: 'Colori acrilici su legno naturale sagomato a mano.',
