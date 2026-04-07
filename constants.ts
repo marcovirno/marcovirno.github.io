@@ -7,9 +7,9 @@ export const ARTWORKS: Artwork[] = [
   {
     id: '1',
     title: 'EQUILIBRIO SULL\' ORLO',
-    date: 'Aprile 2026',
+    date: 'Marzo 2026',
     category: 'Acrilici su legno naturale',
-    dimensions: '40 x 80 x 2 cm',
+    dimensions: '40 x 80 cm',
     technique: 'Colori acrilici su legno naturale sagomato a mano.',
     description: 'Sono fermo. Non perché non sappia camminare. Ma perché so esattamente cosa significa fare un passo. Dietro di me non c’è soltanto una donna. C’è la mia origine. Le mani che mi hanno sorretto prima che sapessi reggermi. La voce che mi ha insegnato il mondo pronunciandolo piano. Se vado avanti, qualcosa di quel suono si incrina. Davanti a me non c’è soltanto un’altra donna. C’è la mia possibilità. C’è la vita che mi chiede di smettere di essere figlio per diventare uomo. C’è un amore che non protegge, ma pretende. Non sto scegliendo tra bene e male. Sto scegliendo tra due beni. Ed è questo che mi lacera. Se resto, rimango intero ma incompiuto. Se vado, divento intero ma diviso. Mi dico che potrei aspettare. Che il tempo scioglierà questo nodo. Ma so che è una menzogna elegante. Il tempo non scioglie. Il tempo strattona. Questo tunnel non è buio. È responsabilità. È separazione. È crescita. Per entrare devo accettare di perdere qualcosa. E io amo entrambe. Vorrei che esistesse un modo per non ferire nessuno. Per non sentirmi colpevole. Per non sentire questo strappo nel petto. Ma diventare uomo è anche questo: accettare che ogni scelta è una rinuncia. Resto ancora un istante. In equilibrio. Sull’orlo. Perché finché non mi muovo non ho ancora perso nulla. Ma so che l’equilibrio non è una casa. È solo il punto esatto in cui si trattiene il respiro prima di decidere chi essere. E io, prima o poi, dovrò respirare.',
     imageUrl: '/images/artwork-136.jpg',
