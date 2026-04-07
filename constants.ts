@@ -6,6 +6,17 @@ export const ARTIST_SURNAME = "VIRNO";
 export const ARTWORKS: Artwork[] = [
   {
     id: '1',
+    title: 'EQUILIBRIO SULL\' ORLO',
+    date: 'Aprile 2026',
+    category: 'Acrilici su legno naturale',
+    dimensions: '40 x 80 x 2 cm',
+    technique: 'Colori acrilici su legno naturale sagomato a mano.',
+    description: 'Sono fermo. Non perché non sappia camminare. Ma perché so esattamente cosa significa fare un passo. Dietro di me non c’è soltanto una donna. C’è la mia origine. Le mani che mi hanno sorretto prima che sapessi reggermi. La voce che mi ha insegnato il mondo pronunciandolo piano. Se vado avanti, qualcosa di quel suono si incrina. Davanti a me non c’è soltanto un’altra donna. C’è la mia possibilità. C’è la vita che mi chiede di smettere di essere figlio per diventare uomo. C’è un amore che non protegge, ma pretende. Non sto scegliendo tra bene e male. Sto scegliendo tra due beni. Ed è questo che mi lacera. Se resto, rimango intero ma incompiuto. Se vado, divento intero ma diviso. Mi dico che potrei aspettare. Che il tempo scioglierà questo nodo. Ma so che è una menzogna elegante. Il tempo non scioglie. Il tempo strattona. Questo tunnel non è buio. È responsabilità. È separazione. È crescita. Per entrare devo accettare di perdere qualcosa. E io amo entrambe. Vorrei che esistesse un modo per non ferire nessuno. Per non sentirmi colpevole. Per non sentire questo strappo nel petto. Ma diventare uomo è anche questo: accettare che ogni scelta è una rinuncia. Resto ancora un istante. In equilibrio. Sull’orlo. Perché finché non mi muovo non ho ancora perso nulla. Ma so che l’equilibrio non è una casa. È solo il punto esatto in cui si trattiene il respiro prima di decidere chi essere. E io, prima o poi, dovrò respirare.',
+    imageUrl: '/images/artwork-136.jpg',
+    operaNumber: '136'
+  },
+  {
+    id: '2',
     title: 'LE VERGINI DEL \'73 A NAPOLI',
     date: 'Gennaio 2026',
     category: 'Acrilici su legno naturale',
@@ -16,7 +27,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '135'
   },
   {
-    id: '2',
+    id: '3',
     title: 'OSTENTAZIONE AL GIN',
     date: 'Dicembre 2025',
     category: 'Composizione',
@@ -27,7 +38,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '134'
   },
   {
-    id: '3',
+    id: '4',
     title: 'L\'ECO DEL SILENZIO',
     date: 'Novembre 2025',
     category: 'Acrilici su legno naturale',
@@ -38,7 +49,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '131'
   },
   {
-    id: '4',
+    id: '5',
     title: 'RESIDENZA 127',
     date: 'Giugno 2025',
     category: 'Acrilici su legno naturale',
@@ -49,7 +60,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '127'
   },
   {
-    id: '5',
+    id: '6',
     title: 'ATRANI, ETERNO RIFUGIO',
     date: 'Aprile 2025',
     category: 'Acrilici su legno naturale',
@@ -60,7 +71,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '126'
   },
   {
-    id: '6',
+    id: '7',
     title: 'NAPOLI : CUORE, FEDE E PASSIONE',
     date: 'Marzo 2025',
     category: 'Acrilici su legno naturale',
@@ -71,7 +82,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '124'
   },
   {
-    id: '7',
+    id: '8',
     title: 'QUATTRO PASSI NELLA STORIA',
     date: 'Dicembre 2024',
     category: 'Acrilici su legno naturale',
@@ -82,7 +93,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '122'
   },
   {
-    id: '8',
+    id: '9',
     title: 'VELE AL TRAMONTO',
     date: 'Giugno 2024',
     category: 'Acrilici su legno naturale',
@@ -93,7 +104,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '120'
   },
   {
-    id: '9',
+    id: '10',
     title: 'LE CHIAVI DELLA VITA',
     date: 'Febbraio 2024',
     category: 'Acrilici su legno naturale',
@@ -104,7 +115,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '116'
   },
   {
-    id: '10',
+    id: '11',
     title: 'OCCHI ATTENTI E AUTOREVOLI ASSISTONO...',
     date: 'Maggio 2023',
     category: 'Tecnica Mista',
@@ -115,7 +126,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '111'
   },
   {
-    id: '11',
+    id: '12',
     title: 'ETERNE ARMONIE GEOMETRICHE DEL PAESAGGIO',
     date: 'Gennaio 2023',
     category: 'Acrilici su legno naturale',
@@ -126,7 +137,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '106'
   },
   {
-    id: '12',
+    id: '13',
     title: 'SAN GENNA\' PIENZACE TU !',
     date: 'Dicembre 2022',
     category: 'Acrilici su legno naturale',
@@ -137,7 +148,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '103'
   },
   {
-    id: '13',
+    id: '14',
     title: 'LE TESI E LE ILLUSIONI DI LISA',
     date: 'Novembre 2022',
     category: 'Acrilici su legno naturale',
@@ -148,7 +159,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '102'
   },
   {
-    id: '14',
+    id: '15',
     title: 'UNA SERA IN QUELLA STAGIONE',
     date: 'Giugno 2022',
     category: 'Acrilici su legno naturale',
