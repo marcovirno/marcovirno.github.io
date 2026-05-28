@@ -6,6 +6,17 @@ export const ARTIST_SURNAME = "VIRNO";
 export const ARTWORKS: Artwork[] = [
   {
     id: '1',
+    title: 'TRE ANIME SOTTO IL CIELO DI ELARIA',
+    date: 'Maggio 2026',
+    category: 'Acrilici su legno naturale',
+    dimensions: '100 x 60 cm',
+    technique: 'Colori acrilici su legno naturale sagomato a mano con creazione artigianale della cornice.',
+    description: 'Esistono luoghi che non si limitano ad essere osservati: entrano lentamente dentro chi li vive e finiscono per cambiare il modo di sentire il mondo. Elaria è uno di questi. Questa opera racconta uno scorcio dell’isola nella sua essenza più autentica: il bianco silenzioso delle architetture, il blu profondo che abbraccia cielo e mare, le piccole barche adagiate nella quiete e quei colori capaci di trasmettere calma ancora prima delle parole. In questo luogo arrivano tre amici, diversi per carattere, esperienze e visione della vita, ma legati da qualcosa di raro: la sincerità del bene reciproco. Il primo porta con sé il peso delle responsabilità quotidiane e una mente abituata alla precisione, ma custodisce un’anima creativa che trova nella bellezza un modo per respirare davvero. Il secondo è il custode degli affetti, delle attenzioni semplici, dei valori autentici che tengono unite le persone anche nei tempi più difficili. Il terzo guarda al futuro con entusiasmo, curiosità e desiderio di conoscenza, cercando nel mondo non soltanto successo, ma significato. Durante l’anno ognuno percorre la propria strada, immerso nei ritmi veloci della vita moderna. Ma il viaggio verso Elaria cambia qualcosa. Davanti al mare, ai silenzi, ai colori accesi dal sole e alla pace che abita quei vicoli, cadono lentamente le sovrastrutture quotidiane. Resta soltanto ciò che conta davvero: la libertà di essere sé stessi, la leggerezza di un sorriso sincero, il piacere di condividere tempo, emozioni e presenza. Quest’opera nasce proprio da questo pensiero: ricordarci che non siamo fatti per vivere continuamente dietro una corazza. La bellezza dei luoghi, della natura e dei sentimenti autentici può ancora renderci migliori. Può insegnarci ad amare senza vergogna, a voler bene senza misura, a rallentare abbastanza da accorgerci di quanto sia prezioso stare bene insieme. Il mare di Elaria, le sue case bianche, le barche immobili nella quiete e i colori che attraversano quest’opera diventano così un invito silenzioso: ritrovare la parte più vera di noi stessi. Perché ogni volta che un luogo riesce ad accarezzare l’anima, non ci lascia mai identici a prima.',
+    imageUrl: '/images/artwork-137.jpg',
+    operaNumber: '137'
+  },
+  {
+    id: '2',
     title: 'EQUILIBRIO SULL\' ORLO',
     date: 'Marzo 2026',
     category: 'Acrilici su legno naturale',
@@ -16,7 +27,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '136'
   },
   {
-    id: '2',
+    id: '3',
     title: 'LE VERGINI DEL \'73 A NAPOLI',
     date: 'Gennaio 2026',
     category: 'Acrilici su legno naturale',
@@ -27,7 +38,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '135'
   },
   {
-    id: '3',
+    id: '4',
     title: 'OSTENTAZIONE AL GIN',
     date: 'Dicembre 2025',
     category: 'Composizione',
@@ -38,7 +49,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '134'
   },
   {
-    id: '4',
+    id: '5',
     title: 'L\'ECO DEL SILENZIO',
     date: 'Novembre 2025',
     category: 'Acrilici su legno naturale',
@@ -49,7 +60,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '131'
   },
   {
-    id: '5',
+    id: '6',
     title: 'RESIDENZA 127',
     date: 'Giugno 2025',
     category: 'Acrilici su legno naturale',
@@ -60,7 +71,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '127'
   },
   {
-    id: '6',
+    id: '7',
     title: 'ATRANI, ETERNO RIFUGIO',
     date: 'Aprile 2025',
     category: 'Acrilici su legno naturale',
@@ -71,7 +82,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '126'
   },
   {
-    id: '7',
+    id: '8',
     title: 'NAPOLI : CUORE, FEDE E PASSIONE',
     date: 'Marzo 2025',
     category: 'Acrilici su legno naturale',
@@ -82,7 +93,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '124'
   },
   {
-    id: '8',
+    id: '9',
     title: 'QUATTRO PASSI NELLA STORIA',
     date: 'Dicembre 2024',
     category: 'Acrilici su legno naturale',
@@ -93,7 +104,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '122'
   },
   {
-    id: '9',
+    id: '10',
     title: 'VELE AL TRAMONTO',
     date: 'Giugno 2024',
     category: 'Acrilici su legno naturale',
@@ -104,7 +115,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '120'
   },
   {
-    id: '10',
+    id: '11',
     title: 'LE CHIAVI DELLA VITA',
     date: 'Febbraio 2024',
     category: 'Acrilici su legno naturale',
@@ -115,7 +126,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '116'
   },
   {
-    id: '11',
+    id: '12',
     title: 'OCCHI ATTENTI E AUTOREVOLI ASSISTONO...',
     date: 'Maggio 2023',
     category: 'Tecnica Mista',
@@ -126,7 +137,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '111'
   },
   {
-    id: '12',
+    id: '13',
     title: 'ETERNE ARMONIE GEOMETRICHE DEL PAESAGGIO',
     date: 'Gennaio 2023',
     category: 'Acrilici su legno naturale',
@@ -137,7 +148,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '106'
   },
   {
-    id: '13',
+    id: '14',
     title: 'SAN GENNA\' PIENZACE TU !',
     date: 'Dicembre 2022',
     category: 'Acrilici su legno naturale',
@@ -148,7 +159,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '103'
   },
   {
-    id: '14',
+    id: '15',
     title: 'LE TESI E LE ILLUSIONI DI LISA',
     date: 'Novembre 2022',
     category: 'Acrilici su legno naturale',
@@ -159,7 +170,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '102'
   },
   {
-    id: '15',
+    id: '16',
     title: 'UNA SERA IN QUELLA STAGIONE',
     date: 'Giugno 2022',
     category: 'Acrilici su legno naturale',
