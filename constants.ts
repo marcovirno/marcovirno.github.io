@@ -6,6 +6,17 @@ export const ARTIST_SURNAME = "VIRNO";
 export const ARTWORKS: Artwork[] = [
   {
     id: '1',
+    title: 'LE STAGIONI DELL\' ANIMA',
+    date: 'Giugno 2026',
+    category: 'Acrilici su legno naturale',
+    dimensions: '30 x 30 cm (Dimensioni per opera)',
+    technique: 'Colori acrilici su legno naturale sagomato a mano.',
+    description: 'Queste quattro opere non raccontano semplicemente le stagioni, raccontano noi. Sono frammenti geometrici di vita contemporanea, tasselli che si uniscono come esperienze, incontri, cadute, rinascite. Ogni forma cerca un equilibrio, ogni colore custodisce una sensazione. La primavera, l’estate, l’autunno e l’inverno non esistono soltanto nel tempo, esistono dentro le persone. C’è chi vive di primavera : ha ancora il coraggio di fidarsi, di iniziare, di credere. Profuma di possibilità, di aria nuova, di parole dette piano. È il tempo degli entusiasmi fragili, dei sorrisi spontanei, della luce che torna senza fare rumore. C’è poi chi assomiglia all’estate: intenso, luminoso, irruento. L’estate è il coraggio di esporsi, di amare senza misura, di vivere tutto fino in fondo anche sapendo che nulla dura per sempre. E poi arriva l’autunno, la stagione più umana, quella delle sfumature e del cambiamento silenzioso. L’autunno è maturità, consapevolezza, nostalgia elegante. Profuma di ricordi, di legno, di pioggia lenta sulle città. È il tempo in cui comprendiamo che perdere qualcosa non significa necessariamente smettere di amarla. Infine l’inverno, che non è soltanto freddo: è riflessione, è distanza, è la parte di noi che si protegge dal rumore del mondo. L’inverno appartiene a chi ha imparato il valore del silenzio, a chi si ricostruisce lentamente, a chi continua a cercare luce anche nelle giornate più corte. Ma nessuno è una sola stagione. Dentro ogni persona convivono mezze stagioni invisibili: primavere improvvise nel mezzo di un inverno, autunni malinconici durante estati perfette. Per questo, queste quattro opere, non rappresentano paesaggi, ma rappresentano caratteri, reazioni, fragilità, istinti e modi diversi di affrontare la vita. Le linee rigide raccontano ciò che mostriamo agli altri. Le curve raccontano ciò che proviamo davvero. I colori accesi sono le emozioni che non riusciamo a trattenere. Gli incastri sono le relazioni umane: difficili, imperfette, necessarie. Ogni tavola è una personalità, ogni osservatore troverà la propria. Perché, in fondo, tutta la vita non è altro che questo: un continuo passaggio di stagioni dentro la stessa anima.',
+    imageUrl: '/images/artwork-138.jpg',
+    operaNumber: '138'
+  },
+  {
+    id: '2',
     title: 'TRE ANIME SOTTO IL CIELO DI ELARIA',
     date: 'Maggio 2026',
     category: 'Acrilici su legno naturale',
@@ -16,7 +27,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '137'
   },
   {
-    id: '2',
+    id: '3',
     title: 'EQUILIBRIO SULL\' ORLO',
     date: 'Marzo 2026',
     category: 'Acrilici su legno naturale',
@@ -27,7 +38,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '136'
   },
   {
-    id: '3',
+    id: '4',
     title: 'LE VERGINI DEL \'73 A NAPOLI',
     date: 'Gennaio 2026',
     category: 'Acrilici su legno naturale',
@@ -38,7 +49,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '135'
   },
   {
-    id: '4',
+    id: '5',
     title: 'OSTENTAZIONE AL GIN',
     date: 'Dicembre 2025',
     category: 'Composizione',
@@ -49,7 +60,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '134'
   },
   {
-    id: '5',
+    id: '6',
     title: 'L\'ECO DEL SILENZIO',
     date: 'Novembre 2025',
     category: 'Acrilici su legno naturale',
@@ -60,7 +71,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '131'
   },
   {
-    id: '6',
+    id: '7',
     title: 'RESIDENZA 127',
     date: 'Giugno 2025',
     category: 'Acrilici su legno naturale',
@@ -71,7 +82,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '127'
   },
   {
-    id: '7',
+    id: '8',
     title: 'ATRANI, ETERNO RIFUGIO',
     date: 'Aprile 2025',
     category: 'Acrilici su legno naturale',
@@ -82,7 +93,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '126'
   },
   {
-    id: '8',
+    id: '9',
     title: 'NAPOLI : CUORE, FEDE E PASSIONE',
     date: 'Marzo 2025',
     category: 'Acrilici su legno naturale',
@@ -93,7 +104,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '124'
   },
   {
-    id: '9',
+    id: '10',
     title: 'QUATTRO PASSI NELLA STORIA',
     date: 'Dicembre 2024',
     category: 'Acrilici su legno naturale',
@@ -104,7 +115,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '122'
   },
   {
-    id: '10',
+    id: '11',
     title: 'VELE AL TRAMONTO',
     date: 'Giugno 2024',
     category: 'Acrilici su legno naturale',
@@ -115,7 +126,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '120'
   },
   {
-    id: '11',
+    id: '12',
     title: 'LE CHIAVI DELLA VITA',
     date: 'Febbraio 2024',
     category: 'Acrilici su legno naturale',
@@ -126,7 +137,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '116'
   },
   {
-    id: '12',
+    id: '13',
     title: 'OCCHI ATTENTI E AUTOREVOLI ASSISTONO...',
     date: 'Maggio 2023',
     category: 'Tecnica Mista',
@@ -137,7 +148,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '111'
   },
   {
-    id: '13',
+    id: '14',
     title: 'ETERNE ARMONIE GEOMETRICHE DEL PAESAGGIO',
     date: 'Gennaio 2023',
     category: 'Acrilici su legno naturale',
@@ -148,7 +159,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '106'
   },
   {
-    id: '14',
+    id: '15',
     title: 'SAN GENNA\' PIENZACE TU !',
     date: 'Dicembre 2022',
     category: 'Acrilici su legno naturale',
@@ -159,7 +170,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '103'
   },
   {
-    id: '15',
+    id: '16',
     title: 'LE TESI E LE ILLUSIONI DI LISA',
     date: 'Novembre 2022',
     category: 'Acrilici su legno naturale',
@@ -170,7 +181,7 @@ export const ARTWORKS: Artwork[] = [
     operaNumber: '102'
   },
   {
-    id: '16',
+    id: '17',
     title: 'UNA SERA IN QUELLA STAGIONE',
     date: 'Giugno 2022',
     category: 'Acrilici su legno naturale',
